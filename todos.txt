@@ -3,5 +3,4 @@ get food
 Clean room
 Buy plants
 walk dog
-Add new todo
 Fix car
