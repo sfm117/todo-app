@@ -29,6 +29,7 @@ for index, todo in enumerate(todos):
 st.text_input(label="Add A New Task", placeholder="...",
               on_change=add_todo, key='new_todo')
 
+# input the date
 start_date = st.date_input("Start Date", value=pd.to_datetime("today", format="%Y-%m-%d"))
 end_date = st.date_input("End Date", value=pd.to_datetime("today", format="%Y-%m-%d"))
 
